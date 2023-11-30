@@ -8,7 +8,7 @@ HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informa
 1. PC/Laptop
 2. Software Node Red
 3. Software Postman
-Skematik
+##### Skematik
 <img width="254" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/cc8291f9-85e5-4973-a3e1-666c617f7b74">
 
 #### C.	HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
