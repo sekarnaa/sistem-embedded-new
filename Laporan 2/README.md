@@ -3,16 +3,14 @@
 <p align="center">
   <img src="https://en.polines.ac.id/images/logo_bw.jpg" width="200" height="200">
 <br>
-<br>BRIAN RAHMADITYA
+<br>PUTRI SEKAR ARIANA
 <br>TE-3A
-<br>4.31.21.0.09</p>
+<br>4.31.21.0.21</p>
 <br>
 <b><p align="center">PROGRAM STUDI D4 TEKNIK TELEKOMUNIKASI</p>
 <p style="font-family:courier;" align="center">POLITEKNIK NEGERI SEMARANG</p>
 <p style="font-family:courier;" align="center">2023</p></b>
 
-## LAPORAN PRAKTIKUM JOBSHEET 2
-## PROTOKOL KOMUNIKASI DAN SENSOR
 
 #### A. ABSTRAK
 Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol komunikasi pada ESP32, seperti UART, I2C, OneWire, dan SPI. Dari pemahaman tersebut dapat menerapkan pengetahuan itu dalam mengakses berbagai jenis sensor. Selain itu, dapat memahami bagaimana cara menciptakan perangkat IoT yang praktis dengan memanfaatkan memanfaatkan transducer sensor dan actuator. 
