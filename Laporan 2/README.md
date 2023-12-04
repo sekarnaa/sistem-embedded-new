@@ -1,4 +1,5 @@
 <h1 align="center">LAPORAN PRAKTIKUM SISTEM EMBEDDED</h1>
+<h2 align="center"> PROTOKOL KOMUNIKASI DAN SENSOR</h2>
 <br>
 <p align="center">
   <img src="https://en.polines.ac.id/images/logo_bw.jpg" width="200" height="200">
