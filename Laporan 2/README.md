@@ -55,10 +55,50 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (*threshold*), maka: Mengaktifkan    berkedip LED menggunakan loop *for* yang mengatur tiga LED secara bergantian, waktu delay (*delay(1000)*) agar tidak         terlalu cepat bertambah.
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
   ##### Langkah 8
+  ### Fungsi `setup()`
+
+```cpp
+void setup() {
+  // Inisialisasi pin LED sebagai output
+  pinMode(ledPin, OUTPUT);
   
-3. pp
+  // Memulai komunikasi serial dengan baud rate 9600
+  Serial.begin(9600);
+}
+```
+
+- **`pinMode(ledPin, OUTPUT);`**: Menginisialisasi pin `ledPin` sebagai output untuk mengontrol LED.
+- **`Serial.begin(9600);`**: Memulai komunikasi serial dengan kecepatan baud 9600.
+
+### Fungsi `loop()`
+
+```cpp
+void loop() {
+  // Baca nilai sensor analog
+  sensorValue = analogRead(sensorPin);
+
+  // Jika nilai sensor melebihi ambang batas
+  if (sensorValue > threshold) {
+    // Blink LED
+    for (int i = 0; i < 5; i++) {
+      digitalWrite(ledPin, HIGH); // LED menyala
+      delay(500); // Tunggu 500ms (setengah detik)
+      digitalWrite(ledPin, LOW); // LED mati
+      delay(500); // Tunggu 500ms (setengah detik)
+    }
+    
+    // Tunggu sebentar agar tidak terlalu cepat bertambah
+    delay(1000);
+  }
+}
+```
+
+- **`sensorValue = analogRead(sensorPin);`**: Membaca nilai analog dari sensor yang terhubung ke pin `sensorPin`.
+- **`if (sensorValue > threshold) { ... }`**: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka:
+  - Mengaktifkan berkedip LED menggunakan loop `for` yang menyala dan mematikan LED setiap 500ms (setengah detik).
+  - Menunggu sebentar (`delay(1000)`) agar tidak terlalu cepat bertambah.
+  ##### Langkah 9
+  ### Fungsi `setup()`
+3. NIA
 4. l
 #### D. KESIMPULAN
-
-![20211119_085406mm](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6eacc1e4-2418-4d8f-8a93-5d0ebd72fc12)
-
