@@ -1,3 +1,16 @@
+<h1 align="center">LAPORAN PRAKTIKUM SISTEM EMBEDDED</h1>
+<br>
+<p align="center">
+  <img src="https://en.polines.ac.id/images/logo_bw.jpg" width="200" height="200">
+<br>
+<br>BRIAN RAHMADITYA
+<br>TE-3A
+<br>4.31.21.0.09</p>
+<br>
+<b><p align="center">PROGRAM STUDI D4 TEKNIK TELEKOMUNIKASI</p>
+<p style="font-family:courier;" align="center">POLITEKNIK NEGERI SEMARANG</p>
+<p style="font-family:courier;" align="center">2023</p></b>
+
 ## LAPORAN PRAKTIKUM JOBSHEET 2
 ## PROTOKOL KOMUNIKASI DAN SENSOR
 
@@ -19,7 +32,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 4. Sensor Data (DHT11, RFID): Menggunakan sensor DHT11 untuk membaca data suhu dan kelembaban, serta modul RFID untuk membaca informasi dari kartu RFID.
 5. Kontrol IoT: Menghubungkan ESP32 ke internet dan melakukan kontrol perangkat secara remote.
 
-#### C. HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
+#### C. HASIL DAN PEMBAHASAN
 1. ESP32 Capacitive Touch Sensor
   ##### Langkah 6
   ##### *Fungsi `setup()`*
@@ -42,6 +55,11 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *sensorValue = analogRead(sensorPin);*: Membaca nilai analog dari sensor yang terhubung ke pin *sensorPin*.
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (*threshold*), maka: Mengaktifkan    berkedip LED menggunakan loop *for* yang mengatur tiga LED secara bergantian, waktu delay (*delay(1000)*) agar tidak         terlalu cepat bertambah.
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
+  ##### Langkah 8
+  
 3. pp
 4. l
 #### D. KESIMPULAN
+
+![20211119_085406mm](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6eacc1e4-2418-4d8f-8a93-5d0ebd72fc12)
+
