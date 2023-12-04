@@ -1,5 +1,17 @@
-## LAPORAN PRAKTIKUM JOBSHEET 2
-## PROTOKOL KOMUNIKASI DAN SENSOR
+<h1 align="center">LAPORAN PRAKTIKUM SISTEM EMBEDDED</h1>
+<h2 align="center"> PROTOKOL KOMUNIKASI DAN SENSOR</h2>
+<br>
+<p align="center">
+  <img src="https://en.polines.ac.id/images/logo_bw.jpg" width="200" height="200">
+<br>
+<br>PUTRI SEKAR ARIANA
+<br>TE-3A
+<br>4.31.21.0.21</p>
+<br>
+<b><p align="center">PROGRAM STUDI D4 TEKNIK TELEKOMUNIKASI</p>
+<p style="font-family:courier;" align="center">POLITEKNIK NEGERI SEMARANG</p>
+<p style="font-family:courier;" align="center">2023</p></b>
+
 
 #### A. ABSTRAK
 Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol komunikasi pada ESP32, seperti UART, I2C, OneWire, dan SPI. Dari pemahaman tersebut dapat menerapkan pengetahuan itu dalam mengakses berbagai jenis sensor. Selain itu, dapat memahami bagaimana cara menciptakan perangkat IoT yang praktis dengan memanfaatkan memanfaatkan transducer sensor dan actuator. 
@@ -19,7 +31,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 4. Sensor Data (DHT11, RFID): Menggunakan sensor DHT11 untuk membaca data suhu dan kelembaban, serta modul RFID untuk membaca informasi dari kartu RFID.
 5. Kontrol IoT: Menghubungkan ESP32 ke internet dan melakukan kontrol perangkat secara remote.
 
-#### C. HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
+#### C. HASIL DAN PEMBAHASAN
 1. ESP32 Capacitive Touch Sensor
   ##### Langkah 6
   ##### *Fungsi `setup()`*
@@ -42,6 +54,51 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *sensorValue = analogRead(sensorPin);*: Membaca nilai analog dari sensor yang terhubung ke pin *sensorPin*.
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (*threshold*), maka: Mengaktifkan    berkedip LED menggunakan loop *for* yang mengatur tiga LED secara bergantian, waktu delay (*delay(1000)*) agar tidak         terlalu cepat bertambah.
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
-3. pp
+  ##### Langkah 8
+  ### Fungsi `setup()`
+
+```cpp
+void setup() {
+  // Inisialisasi pin LED sebagai output
+  pinMode(ledPin, OUTPUT);
+  
+  // Memulai komunikasi serial dengan baud rate 9600
+  Serial.begin(9600);
+}
+```
+
+- **`pinMode(ledPin, OUTPUT);`**: Menginisialisasi pin `ledPin` sebagai output untuk mengontrol LED.
+- **`Serial.begin(9600);`**: Memulai komunikasi serial dengan kecepatan baud 9600.
+
+### Fungsi `loop()`
+
+```cpp
+void loop() {
+  // Baca nilai sensor analog
+  sensorValue = analogRead(sensorPin);
+
+  // Jika nilai sensor melebihi ambang batas
+  if (sensorValue > threshold) {
+    // Blink LED
+    for (int i = 0; i < 5; i++) {
+      digitalWrite(ledPin, HIGH); // LED menyala
+      delay(500); // Tunggu 500ms (setengah detik)
+      digitalWrite(ledPin, LOW); // LED mati
+      delay(500); // Tunggu 500ms (setengah detik)
+    }
+    
+    // Tunggu sebentar agar tidak terlalu cepat bertambah
+    delay(1000);
+  }
+}
+```
+
+- **`sensorValue = analogRead(sensorPin);`**: Membaca nilai analog dari sensor yang terhubung ke pin `sensorPin`.
+- **`if (sensorValue > threshold) { ... }`**: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka:
+  - Mengaktifkan berkedip LED menggunakan loop `for` yang menyala dan mematikan LED setiap 500ms (setengah detik).
+  - Menunggu sebentar (`delay(1000)`) agar tidak terlalu cepat bertambah.
+  ##### Langkah 9
+  ### Fungsi `setup()`
+3. NIA
 4. l
 #### D. KESIMPULAN
