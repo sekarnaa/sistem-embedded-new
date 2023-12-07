@@ -38,8 +38,10 @@ Metode yang mungkin digunakan adalah penggunaan protokol komunikasi seperti HTTP
 
 #### C.	HASIL DAN PEMBAHASAN 
 1. ESP32 Wi-Fi Modes dan Wifi-Scan
-##### Langkah 
-3. Menghubungkan ESP32 dengan Jaringan Wi-Fi
+   <img width="236" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1fe021dd-68d1-4a07-96a5-1ec78a585634">
+2. Menghubungkan ESP32 dengan Jaringan Wi-Fi
+   <img width="262" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/9d9f4f2d-0eff-4607-9bdf-0a2a0abee21f">
+
 4. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
 5. Mengganti Hostname ESP32
 6. Mengirim Data Sensor ke Database
