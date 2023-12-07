@@ -16,6 +16,10 @@
 Praktikum ini memberi pemahaman mendalam mengenai konsep topologi jaringan sensor nirkabel berbasis ESP-NOW. Fokus utamanya adalah memberikan pandangan yang komprehensif tentang bgaimana cara kerja ESP-NOW dan bagaimana topologi jaringan dapat diatur menggunakan teknologi ini. Selain itu, penggunaan ESP-NOW memiliki manfaat dalam berbagai konteks dengan studi kasus proyek yang berbeda, Dengan praktikum ini mendapatkan ilmu pengetahuan dan keterampilan yang diperlukan untuk mengelola topologi jaringan sensor nirkabel dengan efektif dalam berbagai konteks proyek.
 
 #### B.	ALAT DAN BAHAN (Metode / skematik)
+1) ESP32
+2) Breadboard
+3) Kabel jumper
+4) Resistor 10K Ohm
 
 #### C.	HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
 
