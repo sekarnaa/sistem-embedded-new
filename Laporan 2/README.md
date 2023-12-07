@@ -55,50 +55,49 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (*threshold*), maka: Mengaktifkan    berkedip LED menggunakan loop *for* yang mengatur tiga LED secara bergantian, waktu delay (*delay(1000)*) agar tidak         terlalu cepat bertambah.
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
   ##### Langkah 8
-  ### Fungsi `setup()`
+  ![Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan __menampilkan angka yang akan bertambah setiap kali sensor disentuh](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/06fac717-dc2c-4501-a93d-6ba2926786dc)
 
-```cpp
-void setup() {
-  // Inisialisasi pin LED sebagai output
-  pinMode(ledPin, OUTPUT);
-  
-  // Memulai komunikasi serial dengan baud rate 9600
-  Serial.begin(9600);
-}
-```
-
-- **`pinMode(ledPin, OUTPUT);`**: Menginisialisasi pin `ledPin` sebagai output untuk mengontrol LED.
-- **`Serial.begin(9600);`**: Memulai komunikasi serial dengan kecepatan baud 9600.
-
-### Fungsi `loop()`
-
-```cpp
-void loop() {
-  // Baca nilai sensor analog
-  sensorValue = analogRead(sensorPin);
-
-  // Jika nilai sensor melebihi ambang batas
-  if (sensorValue > threshold) {
-    // Blink LED
-    for (int i = 0; i < 5; i++) {
-      digitalWrite(ledPin, HIGH); // LED menyala
-      delay(500); // Tunggu 500ms (setengah detik)
-      digitalWrite(ledPin, LOW); // LED mati
-      delay(500); // Tunggu 500ms (setengah detik)
-    }
-    
-    // Tunggu sebentar agar tidak terlalu cepat bertambah
-    delay(1000);
-  }
-}
-```
-
-- **`sensorValue = analogRead(sensorPin);`**: Membaca nilai analog dari sensor yang terhubung ke pin `sensorPin`.
-- **`if (sensorValue > threshold) { ... }`**: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka:
-  - Mengaktifkan berkedip LED menggunakan loop `for` yang menyala dan mematikan LED setiap 500ms (setengah detik).
-  - Menunggu sebentar (`delay(1000)`) agar tidak terlalu cepat bertambah.
+  ##### *Fungsi `setup()`*
+  - *pinMode(ledPin, OUTPUT);*: Menginisialisasi pin `ledPin` sebagai output untuk mengontrol LED.
+  - *Serial.begin(9600);*: Memulai komunikasi serial dengan kecepatan baud 9600.
+  ##### *Fungsi `loop()`*
+  - *sensorValue = analogRead(sensorPin);*: Membaca nilai analog dari sensor yang terhubung ke pin `sensorPin`.
+  - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka: Mengaktifkan LED berkedip dengan santai menggunakan loop `for`, nyala-mati setiap setengah detik, dan sambil santai nunggu sebentar sebelum berkedip lagi. 
   ##### Langkah 9
-  ### Fungsi `setup()`
-3. NIA
-4. l
+  ##### *Fungsi deklarasi Pin* 
+  - Kode Pin ini terdapat pendeklarasian pin untuk 3 lampu LED, yang diberi nama `ledPin`, `led2`, dan `led3` dan satu pin untuk sensor analog (sensorPin) dideklarasikan.
+  ##### *Fungsi variabel*
+  - `sensorValue` menyimpan nilai analog yang dibaca dari sensor. `threshold`dapat disebut nilai ambang batas dimana jika `sensorValue` melebihi nilai ini, LED akan berkedip.
+  ##### *Fungsi `setup()`*
+  - Mengatur pin LED sebagai output dan untuk memulai komunikasi serial dengan baud rate 9600.
+  ##### *Fungsi `loop()`*
+  - Membaca nilai dari sensor analog. Jika nilai sensor melebihi ambang batas, maka akan ada perulangan untuk membuat ketiga LED berkedip secara bergantian dengan interval 500ms. Setelah itu, menunggu 1 detik sebelum mengulang. Dan jika nilai sensor tidak melebihi ambang batas, semua LED dimatikan.
+    
+2. Mengakses Sensor DHT 11 (Single Wire / BUS)
+  ##### Langkah 3
+  ##### *Fungsi deklarasi dan pengaturan awal*
+  - Langkah awal mendeskripsikan pin untuk sensor DHT (`DHTPIN`), tipe sensor DHT (`DHTTYPE`), pin LED (`LED_PIN`), dan pin buzzer (`BUZZER_PIN`). Kemudian membuat objek DHT bernama `dht` menggunakan pin DHT dan tipe DHT yang sudah didekripsikan diawal tadi, sehingga dapat inisialisasi pin sebagai output dan memulai komunikasi serial.\
+  ##### *Fungsi `loop()`*
+  - Dapat dilihat nilai suhu disimpan dalam variabel temperature. Setelah itu, program memeriksa apakah nilai suhu tersebut valid (bukan NaN). Jika nilainya valid maka program akan lanjut menyesuaikan keluaran berdasarkan nilai suhu tersebut. Jika suhu lebih dari atau sama dengan 30 derajat Celsius, keluaran LEDnya nyala dan menghasilkan bunyi dari buzzer dengan frekuensi 1000 Hz selama 100 milidetik, kemudian mematikan bunyi selama 100 milidetik. Sebaliknya, jika suhu kurang dari 30 derajat Celsius, LED akan berkedip sebanyak lima kali dengan interval 500 milidetik. Program ini memberikan tanggapan visual dan suara yang bergantung pada kondisi suhu sekitar, memberikan informasi yang berguna melalui LED dan buzzer.
+  Mari kita analisis setiap fungsi dalam potongan kode tersebut:
+  ##### Langkah 4
+  ##### *Fungsi deklarasi library dan pin*
+   - Mengatur kode dengan mendeklarasikan dua library, yaitu SPI dan MFRC522 yang digunakan untuk berkomunikasi dengan modul RFID MFRC522. Selain itu Pin SS_PIN dan RST_PIN diatur untuk komunikasi SPI antara ESP32 dan modul RFID.
+  ##### *Fungsi deklarasi library dan pin `setup()`*
+  - Komunikasi serial dengan baud rate 9600 memungkinkan pertukaran informasi dengan komputer melalui Serial Monitor. Langkah selanjutnya menginisialisasi komunikasi SPI melalui perintah `SPI.begin()`, yang diperlukan untuk berkomunikasi dengan modul RFID MFRC522. Setelah itu, modul RFID MFRC522 diinisialisasi menggunakan `rfid.PCD_Init()`. Inisialisasi ini melibatkan konfigurasi awal yang diperlukan agar modul RFID dapat berfungsi dengan benar. Terakhir, sebuah pesan informatif ditampilkan di Serial Monitor, memberi tahu pengguna untuk menyentuhkan tag RFID atau NFC ke pembaca.
+  ##### *Fungsi Loop*
+  - Code untuk mengecek apakah ada tag baru yang ditempatkan di depan pembaca menggunakan `rfid.PICC_IsNewCardPresent()`. Jika tag baru telah terdeteksi, maka membaca serial number (NUID) dari tag menggunakan `rfid.PICC_ReadCardSerial()`. Berikutnya untuk memeriksa tipe tag menggunakan `rfid.PICC_GetType(rfid.uid.sak)`. Code `keyTagUID` untuk membandingkan UID tag dengan UID yang ditentukan dalam array. Jika UID tag sesuai dengan `keyTagUID`, program menampilkan pesan "Access is granted". Sebaliknya UID tidak sesuai program akan menampilkan pesan "Access denied for user with UID" dan menampilkan UID tag yang tidak dikenal. Proses berlangsung dalam loop, terus memeriksa keberadaan tag RFID dan memberikan respons sesuai dengan UID tag yang dibaca.
+    
+3. Mengakses Sensor RFID (SPI Communication)
+  ##### Langkah 4
+  ##### *Fungsi menginisialisasi Modul RFID dan menentukan UID*
+  - Mendiskripsikan library SPI dan MFRC522, menentukan pin SS (Slave Select) dan RST (Reset) untuk modul RFID MFRC522, membuat objek MFRC522 bernama rfid dengan pin SS dan RST yang telah ditentukan, dan menentukan UID yang diharapkan dari kartu RFID yang akan diakses.
+  ##### *Fungsi `setup()`*
+  - memulai komunikasi serial dengan baud rate 9600, menginisialisasi bus SPI dan modul MFRC522. selanjutnya menampilkan pesan di Serial Monitor untuk menunjukkan bahwa pembaca RFID siap digunakan dengan perintah "Tap RFID/NFC Tag on reader".
+##### *Fungsi Loop*
+- Memeriksa apakah ada kartu RFID yang baru dihadirkan (`PICC_IsNewCardPresent`). Jika kartu baru hadir, membaca NUID kartu (`PICC_ReadCardSerial`). Untuk mengatur tipe kartu RFID dan memeriksa apakah UID kartu sesuai dengan UID yang ditentukan (`keyTagUID`). Menampilkan pesan "Access is granted" jika UID sesuai; sebaliknya, menampilkan pesan "Access denied" berserta UID kartu jika tidak sesuai. Menghentikan aktivitas kartu RFID (`PICC_HaltA`) dan menghentikan enkripsi pada PCD (Proximity Coupling Device). Keluaran program memberikan akses atau penolakan berdasarkan UID kartu RFID yang dihadirkan di dekat pembaca. Pesan-pesan status dan informasi UID ditampilkan di Serial Monitor untuk pemantauan dan debugging. Dalam program ini, akses diberikan jika UID kartu RFID sesuai dengan nilai yang ditentukan (`keyTagUID`).
+  
 #### D. KESIMPULAN
+1. ESP32 Capacitive Touch Sensor, program ini menggunakan sensor sentuh pada ESP32 untuk mengontrol LED berdasarkan sentuhan pengguna. Membaca nilai sensor sentuh, dan jika disentuh, LED menyala dan pesan ditampilkan di Serial Monitor. Jika tidak disentuh, LED dimatikan.
+2. Mengakses Sensor DHT 11 (Single Wire / BUS), program ini membaca suhu dari sensor DHT11 dan memberikan respons visual dan suara berdasarkan nilai suhu. Jika suhu melebihi 30 derajat Celsius, LED menyala dan buzzer berbunyi. Jika tidak, LED berkedip lima kali.
+3. Mengakses Sensor RFID (SPI Communication), program ini menggunakan modul RFID MFRC522 untuk mengakses kartu RFID. 
