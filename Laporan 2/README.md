@@ -35,11 +35,10 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 1. ESP32 Capacitive Touch Sensor
   ##### Langkah 4
   <img width="253" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6978b5bb-8099-432f-86d4-00cd91e41049">
-
   - Hasil keluaran dapat dilihat nilai pembacaan dari pin sentuh (touch) pada GPIO 4 tercetak ke dalam monitor serial setiap detiknya. Nilai tersebut mencerminkan seberapa kuat sinyal sentuhan yang dideteksi oleh sensor sentuh pada pin tersebut. Semakin tinggi nilai yang tercetak, semakin kuat sentuhan yang dideteksi. 
+  
   ##### Langkah 6
   ![Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan __menampilkan angka yang akan bertambah setiap kali sensor disentuh](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/04ecaa84-9497-46a4-91c6-a551fc45277b)
-
   ##### *Fungsi `setup()`*
   - *pinMode(ledPin, OUTPUT);*: Mendefinisikan pin *ledPin* sebagai output, yang berarti untuk mengontrol LED.
   - *pinMode(touchSensorPin, INPUT);*: Mendefinisikan pin *touchSensorPin* sebagai input, yang digunakan untuk membaca nilai   dari sensor sentuh.
@@ -50,6 +49,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *if (sensorValue == HIGH) { ... }*: Jika di sentuh HIGH (disentuh), maka: LED menyala (*digitalWrite(ledPin, HIGH);*),     meningkatkan nilai variabel *counter*, mengirim pesan ke Serial Monitor yang berisi informasi bahwa sensor disentuh dan       nilai counter.
   - *else { ... }*: Jika nilai sensor sentuh LOW (tidak disentuh), maka: LED mati (*digitalWrite(ledPin, LOW);*), mencetak     pesan ke Serial Monitor bahwa sensor tidak disentuh dan LED mati.
   - *delay(100);*: Menambahkan penundaan 100 milidetik untuk menghindari pembacaan sensor yang terlalu cepat dan mengurangi    noise yang mungkin terjadi.
+
   ##### Langkah 7
   ![Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan __menampilkan angka yang akan bertambah setiap kali sensor disentuh](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/aaf426b5-a9e4-4d22-aeff-88396c501f7b)
 
@@ -62,6 +62,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - *sensorValue = analogRead(sensorPin);*: Membaca nilai analog dari sensor yang terhubung ke pin *sensorPin*.
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (*threshold*), maka: Mengaktifkan    berkedip LED menggunakan loop *for* yang mengatur tiga LED secara bergantian, waktu delay (*delay(1000)*) agar tidak         terlalu cepat bertambah.
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
+  
   ##### Langkah 8
   ![Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan __menampilkan angka yang akan bertambah setiap kali sensor disentuh](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/06fac717-dc2c-4501-a93d-6ba2926786dc)
 
@@ -71,6 +72,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   ##### *Fungsi `loop()`*
   - *sensorValue = analogRead(sensorPin);*: Membaca nilai analog dari sensor yang terhubung ke pin `sensorPin`.
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka: Mengaktifkan LED berkedip dengan santai menggunakan loop `for`, nyala-mati setiap setengah detik, dan sambil santai nunggu sebentar sebelum berkedip lagi. 
+  
   ##### Langkah 9
   <img width="349" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c6e7689c-f876-4855-a0d0-6583350d7b80">
 
