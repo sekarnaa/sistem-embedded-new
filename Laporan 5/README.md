@@ -13,7 +13,7 @@
 <p style="font-family:courier;" align="center">2023</p></b> 
 
 #### A. ABSTRAK
-
+Pada praktikum ini mengenai konsep dasar pemrograman menggunakan Node-Red beserta prinsip-prinsip dasar dalam lingkungan Node-Red. Selain itu, praktikum ini membahas implementasi praktis seperti membuat aplikasi server sederhana menggunakan Node-Red. Dimana aplikasi server ini dapat digunakan dalam konteks pengembangan berbagai aplikasi berbasis IoT, pemantauan, dan otomatisasi. Kesimpulannya, praktikum ini memiliki tujuan agra dapat menguasai alat pemrograman Node-Red dan mengaplikasikannya dalam berbagai konteks pengembangan aplikasi.
 
 #### B. ALAT DAN BAHAN (Metode / skematik)
 1) Perangkat terpasang Node-Red
