@@ -35,6 +35,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 1. ESP32 Capacitive Touch Sensor
   ##### Langkah 4
   <img width="253" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6978b5bb-8099-432f-86d4-00cd91e41049">
+  
   - Hasil keluaran dapat dilihat nilai pembacaan dari pin sentuh (touch) pada GPIO 4 tercetak ke dalam monitor serial setiap detiknya. Nilai tersebut mencerminkan seberapa kuat sinyal sentuhan yang dideteksi oleh sensor sentuh pada pin tersebut. Semakin tinggi nilai yang tercetak, semakin kuat sentuhan yang dideteksi. 
   
   ##### Langkah 6
