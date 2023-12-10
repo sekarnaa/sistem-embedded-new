@@ -37,12 +37,15 @@ Metode ini mengubah nama host (hostname) pada ESP32. Hal ini dapat dilakukan den
 Metode yang mungkin digunakan adalah penggunaan protokol komunikasi seperti HTTP atau MQTT untuk mengirim data sensor dari ESP32 ke database. Hal ini melibatkan implementasi koneksi ke jaringan WiFi dan penggunaan endpoint atau topik khusus untuk mentransfer data ke database.
 
 #### C.	HASIL DAN PEMBAHASAN 
-1. ESP32 Wi-Fi Modes dan Wifi-Scan
+##### 1. ESP32 Wi-Fi Modes dan Wifi-Scan
    <img width="236" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1fe021dd-68d1-4a07-96a5-1ec78a585634">
-2. Menghubungkan ESP32 dengan Jaringan Wi-Fi
+
+##### 2. Menghubungkan ESP32 dengan Jaringan Wi-Fi
    <img width="262" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/9d9f4f2d-0eff-4607-9bdf-0a2a0abee21f">
 
-4. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
-5. Mengganti Hostname ESP32
-6. Mengirim Data Sensor ke Database
+##### 3. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
+   <img width="264" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/657ffdde-19fd-4957-b05d-39cdc1f8002c">
+
+##### 4. Mengganti Hostname ESP32
+##### 5. Mengirim Data Sensor ke Database
 #### D.	KESIMPULAN
