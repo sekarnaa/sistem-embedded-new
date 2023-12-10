@@ -29,7 +29,9 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 1. m
 2. Mengakses GPIO dan PWM ESP32
    ##### GPIO Langkah 3
-   ![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ee98c9f4-acfb-4929-9d39-80977f075e58)
+  <p align="center">
+  <img src="![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/52557c67-78f9-4b38-a63a-fa307e5a3922)" width="200" height="200">
+  <br>
 
    ##### GPIO Langkah 4
    <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/277f736c-9b63-47aa-b07d-a634d136ac04">
