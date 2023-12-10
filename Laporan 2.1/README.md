@@ -22,6 +22,19 @@ Praktikum ini memberi pemahaman mendalam mengenai konsep topologi jaringan senso
 4) Resistor 10K Ohm
 
 #### C.	HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
+##### A) Memperoleh MAC Address ESP32 Receiver
 
-#### D.	KESIMPULAN
+##### B) ESP-NOW One-Way Point-to-Point Communication
+##### Langkah 5
+##### Langkah 8
+
+##### C) One-Way, One-to-Many Communication
+##### 1) Mengirim Pesan yang Sama Ke Beberapa Board ESP32
+##### 2) Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
+
+##### D) One-Way, Many-to-One Communication 
+
+##### E) Two-Way Communication
+
+#### D)	KESIMPULAN
 
