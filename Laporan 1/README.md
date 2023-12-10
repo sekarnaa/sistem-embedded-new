@@ -29,17 +29,17 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 1. m
 2. Mengakses GPIO dan PWM ESP32
    ##### GPIO Langkah 3
-   ![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/47581ff7-314a-4b97-a57a-45c345eb6152)
+   <img width="341" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/88dfdefd-4659-4e73-b8c4-ed8f077f7ebd">
 
    ##### GPIO Langkah 4
-   <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/277f736c-9b63-47aa-b07d-a634d136ac04">
+   <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4d8a1cbe-0603-4018-bc58-deb9cb75b185">
 
    ##### GPIO Langkah 5
    ##### PWM Langkah 1-3
-   ![IMG_20230910_113344](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/33eab637-a6a1-4176-b1a6-f5f76f537919)
+   <img width="360" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/9fc63206-9879-4a75-a5c2-e700251cbec3">
 
    ##### PWM Langkah 4-5
-   ![IMG_20230910_113344](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/31035847-c2fc-4536-8ba8-246dd97f1680)
+   <img width="360" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4bd65938-6e60-4b2e-902e-dc71bb75d859">
 
 4. ADC dan DAC
    ##### Langkah 1-3
