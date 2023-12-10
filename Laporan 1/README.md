@@ -29,9 +29,7 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 1. m
 2. Mengakses GPIO dan PWM ESP32
    ##### GPIO Langkah 3
-  <p align="center">
-  <img src="![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/52557c67-78f9-4b38-a63a-fa307e5a3922)" width="200" height="200">
-  <br>
+   ![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/47581ff7-314a-4b97-a57a-45c345eb6152)
 
    ##### GPIO Langkah 4
    <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/277f736c-9b63-47aa-b07d-a634d136ac04">
@@ -45,8 +43,12 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 
 4. ADC dan DAC
    ##### Langkah 1-3
+   <img width="250" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1c50627f-2740-4a4c-90f3-5be8572c2ed8">
+
    ##### Langkah 4-5
-5. Simulasi Pemrosesan Data Menggunakan Regresi Linier
+   <img width="263" alt="Screenshot 2023-12-10 203924" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/7e919806-b2b4-414d-9c8c-2025ac036247">
+
+6. Simulasi Pemrosesan Data Menggunakan Regresi Linier
    ##### Langkah
 
 #### D. KESIMPULAN
