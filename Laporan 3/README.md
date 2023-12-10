@@ -54,7 +54,7 @@ Program tersebut memiliki tujuan untuk menghubungkan perangkat ke jaringan Wi-Fi
 Program diatas ESP32 yang mengatur koneksi Wi-Fi dan hostname perangkat. Dalam setup, program membuka koneksi serial, menginisialisasi koneksi Wi-Fi sebagai mode STATION, dan mencoba terhubung ke jaringan Wi-Fi yang ditentukan. Selanjutnya, program mencetak nilai RSSI dan hostname baru ke dalam monitor serial setelah berhasil terhubung. Meskipun terdapat upaya untuk mengonfigurasi alamat IP secara manual menggunakan `WiFi.config()`, tampaknya konfigurasi tersebut tidak efektif dan perangkat tetap menggunakan DHCP. 
 
 ##### 5. Mengirim Data Sensor ke Database
-<img width="215" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ac83b41e-5e8a-4780-a344-6325806746c9">
+
 Program tersebut membuat server web sederhana untuk menampilkan data suhu dan kelembaban dari sensor DHT11. Dengan menggunakan WiFi dan AsyncWebServer library, ESP32 terhubung ke jaringan Wi-Fi, membaca data dari sensor DHT11, dan menyajikannya dalam sebuah halaman web. Pada bagian setup menginisialisasi sensor DHT11, koneksi ke jaringan Wi-Fi, dan konfigurasi server web. Halaman web yang ditampilkan menggunakan HTML dan CSS dengan elemen-elemen presentasi yang estetis, dan JavaScript digunakan untuk mengambil dan memperbarui data suhu dan kelembaban secara periodik tanpa memuat ulang seluruh halaman.
 
 #### D.	KESIMPULAN
