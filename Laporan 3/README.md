@@ -38,15 +38,15 @@ Metode yang mungkin digunakan adalah penggunaan protokol komunikasi seperti HTTP
 
 #### C.	HASIL DAN PEMBAHASAN 
 ##### 1. ESP32 Wi-Fi Modes dan Wifi-Scan
-   <img width="236" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1fe021dd-68d1-4a07-96a5-1ec78a585634">
-Program ini, ESP32 akan mencoba terhubung ke jaringan Wi-Fi yang ditentukan. Setelah berhasil terhubung, alamat MAC ESP32 akan dicetak ke monitor serial. Program ini dapat dijadikan dasar untuk menambahkan fungsionalitas pengiriman data atau menerima instruksi melalui jaringan Wi-Fi.
+   <img width="214" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/d8bc2769-8dea-477c-9c24-f75fdbe048ee">
+Program ini, ESP32 akan mencoba terhubung ke jaringan Wi-Fi yang ditentukan. Setelah berhasil terhubung, alamat MAC ESP32 akan dicetak ke monitor serial maka jaringan WiFi beserta kekuatan sinyal yang didapat. Jika tidak ada jaringan maka akan tertulis "No Networks Found". Scanning akan diulang setiap 5 detik karena terdapat delay(5000) dan lebih baik tidak dilakukan terlalu cepat (spam).
 
 ##### 2. Menghubungkan ESP32 dengan Jaringan Wi-Fi
-   <img width="262" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/9d9f4f2d-0eff-4607-9bdf-0a2a0abee21f">
+   <img width="133" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/245cd0ab-e1aa-46b0-928b-e8f8bcf03265">
 Program tersebut menghubungkan perangkat ke jaringan Wi-Fi dengan menggunakan SSID dan kata sandi yang telah ditentukan. Setelah inisialisasi, program mencetak nilai RSSI dari koneksi Wi-Fi saat ini ke dalam monitor serial. Program ini memiliki keluaran untuk pemantauan dan penanganan status koneksi Wi-Fi pada ESP32.
 
 ##### 3. Menghubungkan Kembali (Re-connect) ESP32 dengan Jaringan Wi-Fi
-   <img width="264" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/657ffdde-19fd-4957-b05d-39cdc1f8002c">
+   <img width="283" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/cd2a365e-740e-4bfc-a139-e2fe83b76d7f">
 Program tersebut memiliki tujuan untuk menghubungkan perangkat ke jaringan Wi-Fi dan secara periodik mencetak nilai RSSI (Received Signal Strength Indicator) ke monitor serial. Pada bagian setup, program membuka koneksi serial untuk keperluan debugging dan memanggil fungsi initWiFi() untuk menginisialisasi koneksi Wi-Fi. Fungsi initWiFi() mengatur mode Wi-Fi sebagai mode STATION (klien) dan mencoba untuk terhubung ke jaringan Wi-Fi yang telah ditentukan, selanjutnya mencetak pesan status koneksi dan alamat IP lokal ESP32 ke monitor serial. Selanjutnya, nilai RSSI dari koneksi Wi-Fi saat ini dicetak di dalam fungsi setup setelah inisialisasi koneksi. Dalam fungsi loop, program secara terus-menerus memeriksa status koneksi Wi-Fi dan mencoba merekoneksi jika koneksi terputus. Proses ini dilakukan secara periodik dengan interval waktu sekitar 30 detik, seperti yang ditentukan oleh variabel interval. 
 
 ##### 4. Mengganti Hostname ESP32
