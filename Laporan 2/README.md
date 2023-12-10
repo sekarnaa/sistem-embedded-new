@@ -33,6 +33,8 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 
 #### C. HASIL DAN PEMBAHASAN
 1. ESP32 Capacitive Touch Sensor
+  ##### Langkah 4
+  
   ##### Langkah 6
   ##### *Fungsi `setup()`*
   - *pinMode(ledPin, OUTPUT);*: Mendefinisikan pin *ledPin* sebagai output, yang berarti untuk mengontrol LED.
@@ -109,7 +111,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   ##### *Fungsi readDHTTemperature*
   - Membaca suhu dari sensor DHT dan mengembalikan nilai suhu dalam format String. Jika pembacaan gagal, mengembalikan string "--".
   ##### *Fungsi readDHTHumidity*
-  - Membaca kelembaban dari sensor DHT dan mengembalikan nilai kelembaban dalam format String. Jika pembacaan gagal, mengembalikan string "--".
+  - Membaca kelembaban dari sensor DHT dan mengembalikan3 nilai kelembaban dalam format String. Jika pembacaan gagal, mengembalikan string "--".
   ##### *Fungsi index_html*
   - Digunakan oleh server untuk menampilkan nilai suhu dan kelembaban. Terdapat placeholder (%TEMPERATURE% dan %HUMIDITY%) yang akan digantikan oleh nilai aktual saat halaman dimuat.
   ##### *Fungsi processor*
