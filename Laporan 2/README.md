@@ -85,12 +85,16 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
     
 2. Mengakses Sensor DHT 11 (Single Wire / BUS)
   ##### Langkah 3
+  <img width="245" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c77a2030-4247-4aa2-8a7d-88fde86bcbfe">
+
   ##### *Fungsi deklarasi dan pengaturan awal*
   - Langkah awal mendeskripsikan pin untuk sensor DHT (`DHTPIN`), tipe sensor DHT (`DHTTYPE`), pin LED (`LED_PIN`), dan pin buzzer (`BUZZER_PIN`). Kemudian membuat objek DHT bernama `dht` menggunakan pin DHT dan tipe DHT yang sudah didekripsikan diawal tadi, sehingga dapat inisialisasi pin sebagai output dan memulai komunikasi serial.\
   ##### *Fungsi `loop()`*
   - Dapat dilihat nilai suhu disimpan dalam variabel temperature. Setelah itu, program memeriksa apakah nilai suhu tersebut valid (bukan NaN). Jika nilainya valid maka program akan lanjut menyesuaikan keluaran berdasarkan nilai suhu tersebut. Jika suhu lebih dari atau sama dengan 30 derajat Celsius, keluaran LEDnya nyala dan menghasilkan bunyi dari buzzer dengan frekuensi 1000 Hz selama 100 milidetik, kemudian mematikan bunyi selama 100 milidetik. Sebaliknya, jika suhu kurang dari 30 derajat Celsius, LED akan berkedip sebanyak lima kali dengan interval 500 milidetik. Program ini memberikan tanggapan visual dan suara yang bergantung pada kondisi suhu sekitar, memberikan informasi yang berguna melalui LED dan buzzer.
   Mari kita analisis setiap fungsi dalam potongan kode tersebut:
   ##### Langkah 4
+  ![IMG_20231210_194830](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ad92757c-b378-4be1-9dd1-1a34ee828634)
+
   ##### *Fungsi deklarasi library dan pin*
    - Mengatur kode dengan mendeklarasikan dua library, yaitu SPI dan MFRC522 yang digunakan untuk berkomunikasi dengan modul RFID MFRC522. Selain itu Pin SS_PIN dan RST_PIN diatur untuk komunikasi SPI antara ESP32 dan modul RFID.
   ##### *Fungsi deklarasi library dan pin `setup()`*
@@ -100,6 +104,8 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
     
 3. Mengakses Sensor RFID (SPI Communication)
   ##### Langkah 4
+  ![IMG_20230914_111214](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ad4456ee-a561-4a9f-af38-2bc1b031abee)
+
   ##### *Fungsi menginisialisasi Modul RFID dan menentukan UID*
   - Mendiskripsikan library SPI dan MFRC522, menentukan pin SS (Slave Select) dan RST (Reset) untuk modul RFID MFRC522, membuat objek MFRC522 bernama rfid dengan pin SS dan RST yang telah ditentukan, dan menentukan UID yang diharapkan dari kartu RFID yang akan diakses.
   ##### *Fungsi `setup()`*
