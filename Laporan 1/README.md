@@ -26,6 +26,26 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 8) Resistor 330,1K, 10K Ohm (@ 3)
    
 #### C. HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
+1. m
+2. Mengakses GPIO dan PWM ESP32
+   ##### GPIO Langkah 3
+   ![IMG_20230910_091501](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ee98c9f4-acfb-4929-9d39-80977f075e58)
+
+   ##### GPIO Langkah 4
+   <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/277f736c-9b63-47aa-b07d-a634d136ac04">
+
+   ##### GPIO Langkah 5
+   ##### PWM Langkah 1-3
+   ![IMG_20230910_113344](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/33eab637-a6a1-4176-b1a6-f5f76f537919)
+
+   ##### PWM Langkah 4-5
+   ![IMG_20230910_113344](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/31035847-c2fc-4536-8ba8-246dd97f1680)
+
+4. ADC dan DAC
+   ##### Langkah 1-3
+   ##### Langkah 4-5
+5. Simulasi Pemrosesan Data Menggunakan Regresi Linier
+   ##### Langkah
 
 #### D. KESIMPULAN
 
