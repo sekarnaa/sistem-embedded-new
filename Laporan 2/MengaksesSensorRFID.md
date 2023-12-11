@@ -1,4 +1,4 @@
-## C. MeENGAKSES SENSOR RFID (SPI COMMUNICATION)
+## C. MENGAKSES SENSOR RFID (SPI COMMUNICATION)
 ### RANGKAIAN
 <img width="313" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/e80db27b-0187-44ea-8308-e5c8cce65ab6">
 
