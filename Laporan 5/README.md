@@ -18,10 +18,8 @@ Pada praktikum ini mengenai konsep dasar pemrograman menggunakan Node-Red besert
 #### B. ALAT DAN BAHAN (Metode / skematik)
 1) Perangkat terpasang Node-Red
 2) PC/Laptop
-   
-#### C. HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
 
-#### D. KESIMPULAN
+#### C. KESIMPULAN
 
 
 
