@@ -1,3 +1,3 @@
-## B. Mengakses Sensor DHT 11 (Single Wire / BUS)
-### Rangkaian
-### Hasil dan Pembahasan
+## B. MENGAKSES SENSOR DHT 11 (SINGLE WIRE / BUS)
+### RANGKAIAN
+### HASIL DAN PEMBAHASAN
