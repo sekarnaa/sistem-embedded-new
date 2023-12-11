@@ -96,7 +96,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
   - Dapat dilihat nilai suhu disimpan dalam variabel temperature. Setelah itu, program memeriksa apakah nilai suhu tersebut valid (bukan NaN). Jika nilainya valid maka program akan lanjut menyesuaikan keluaran berdasarkan nilai suhu tersebut. Jika suhu lebih dari atau sama dengan 30 derajat Celsius, keluaran LEDnya nyala dan menghasilkan bunyi dari buzzer dengan frekuensi 1000 Hz selama 100 milidetik, kemudian mematikan bunyi selama 100 milidetik. Sebaliknya, jika suhu kurang dari 30 derajat Celsius, LED akan berkedip sebanyak lima kali dengan interval 500 milidetik. Program ini memberikan tanggapan visual dan suara yang bergantung pada kondisi suhu sekitar, memberikan informasi yang berguna melalui LED dan buzzer.
   Mari kita analisis setiap fungsi dalam potongan kode tersebut:
   ##### Langkah 4
-  ![IMG_20231210_194830](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ad92757c-b378-4be1-9dd1-1a34ee828634)
+  <img width="493" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/bf40ffeb-c11b-4023-aaae-eee1b98db593">
 
   ##### *Fungsi deklarasi library dan pin*
    - Mengatur kode dengan mendeklarasikan dua library, yaitu SPI dan MFRC522 yang digunakan untuk berkomunikasi dengan modul RFID MFRC522. Selain itu Pin SS_PIN dan RST_PIN diatur untuk komunikasi SPI antara ESP32 dan modul RFID.
@@ -107,7 +107,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
     
 3. Mengakses Sensor RFID (SPI Communication)
   ##### Langkah 4
-  ![IMG_20230914_111214](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ad4456ee-a561-4a9f-af38-2bc1b031abee)
+  <img width="357" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/0da382cf-055f-4767-a532-87b5a109dc24">
 
   ##### *Fungsi menginisialisasi Modul RFID dan menentukan UID*
   - Mendiskripsikan library SPI dan MFRC522, menentukan pin SS (Slave Select) dan RST (Reset) untuk modul RFID MFRC522, membuat objek MFRC522 bernama rfid dengan pin SS dan RST yang telah ditentukan, dan menentukan UID yang diharapkan dari kartu RFID yang akan diakses.
