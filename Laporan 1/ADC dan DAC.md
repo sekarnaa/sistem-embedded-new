@@ -5,6 +5,7 @@
 ### HASIL DAN PEMBAHASAN
 ##### Langkah 1-3
    <img width="250" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1c50627f-2740-4a4c-90f3-5be8572c2ed8">
+   
   - Program tersebut membaca nilai potensiometer yang terhubung ke pin GPIO 34 (Analog ADC1_CH6) pada mikrokontroler. Hasil keluaran akan ditampilkan pada serial monitor sehingga dapat melihat perubahan nilai yang terjadi.
   ##### *Fungsi deklarasi variabel*
   - `const int potPin = 34;`: Mendeklarasikan konstanta `potPin` dengan nilai 34 dimana potensiometer terhubung ke pin GPIO 34.
