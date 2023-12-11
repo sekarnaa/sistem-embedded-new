@@ -1,7 +1,9 @@
 ## C. MeENGAKSES SENSOR RFID (SPI COMMUNICATION)
 ### RANGKAIAN
+<img width="313" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/e80db27b-0187-44ea-8308-e5c8cce65ab6">
+
 ### HASIL DAN PEMBAHASAN
-  ##### Langkah 4
+  ##### Langkah 4 (Program dengan mendekatkan kartu atau Tag RFID ke RFID Reader)
   <img width="357" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/0da382cf-055f-4767-a532-87b5a109dc24">
 
   ##### *Fungsi menginisialisasi Modul RFID dan menentukan UID*
@@ -10,7 +12,8 @@
   - memulai komunikasi serial dengan baud rate 9600, menginisialisasi bus SPI dan modul MFRC522. selanjutnya menampilkan pesan di Serial Monitor untuk menunjukkan bahwa pembaca RFID siap digunakan dengan perintah "Tap RFID/NFC Tag on reader".
   ##### *Fungsi Loop*
   - Memeriksa apakah ada kartu RFID yang baru dihadirkan (`PICC_IsNewCardPresent`). Jika kartu baru hadir, membaca NUID kartu (`PICC_ReadCardSerial`). Untuk mengatur tipe kartu RFID dan memeriksa apakah UID kartu sesuai dengan UID yang ditentukan (`keyTagUID`). Menampilkan pesan "Access is granted" jika UID sesuai; sebaliknya, menampilkan pesan "Access denied" berserta UID kartu jika tidak sesuai. Menghentikan aktivitas kartu RFID (`PICC_HaltA`) dan menghentikan enkripsi pada PCD (Proximity Coupling Device). Keluaran program memberikan akses atau penolakan berdasarkan UID kartu RFID yang dihadirkan di dekat pembaca. Pesan-pesan status dan informasi UID ditampilkan di Serial Monitor untuk pemantauan dan debugging. Dalam program ini, akses diberikan jika UID kartu RFID sesuai dengan nilai yang ditentukan (`keyTagUID`).
-   ##### Langkah 5
+   
+   ##### Langkah 5 (Program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba)
    <img width="727" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/274036de-9b07-4be9-91d8-1e15f8128377">
 
    ##### *Fungsi `setup()`*
