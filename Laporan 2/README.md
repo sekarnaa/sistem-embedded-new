@@ -31,7 +31,7 @@ Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol 
 4. Sensor Data (DHT11, RFID): Menggunakan sensor DHT11 untuk membaca data suhu dan kelembaban, serta modul RFID untuk membaca informasi dari kartu RFID.
 5. Kontrol IoT: Menghubungkan ESP32 ke internet dan melakukan kontrol perangkat secara remote.
 
-#### D. KESIMPULAN
+#### C. KESIMPULAN
 1. ESP32 Capacitive Touch Sensor, program ini menggunakan sensor sentuh pada ESP32 untuk mengontrol LED berdasarkan sentuhan pengguna. Membaca nilai sensor sentuh, dan jika disentuh, LED menyala dan pesan ditampilkan di Serial Monitor. Jika tidak disentuh, LED dimatikan.
 2. Mengakses Sensor DHT 11 (Single Wire / BUS), program ini membaca suhu dari sensor DHT11 dan memberikan respons visual dan suara berdasarkan nilai suhu. Jika suhu melebihi 30 derajat Celsius, LED menyala dan buzzer berbunyi. Jika tidak, LED berkedip lima kali.
 3. Mengakses Sensor RFID (SPI Communication), program ini menggunakan modul RFID MFRC522 untuk mengakses kartu RFID. 
