@@ -1,4 +1,4 @@
-## Basic Flow
+## BASIC FLOW
 
 ### a. Langkah Kerja
   1. Pastikan perangkat komputer terpasang Node-Red.
