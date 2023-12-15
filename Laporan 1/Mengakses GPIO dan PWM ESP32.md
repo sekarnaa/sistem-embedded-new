@@ -11,6 +11,8 @@ PWM
 ### HASIL DAN PEMBAHASAN
 ##### GPIO Langkah 3 (Buatlah program untuk mengendalikan led menggunakan push button)
    <img width="341" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/88dfdefd-4659-4e73-b8c4-ed8f077f7ebd">
+Program Arduino di atas dirancang untuk mengendalikan sebuah LED menggunakan sebuah pushbutton. Pushbutton terhubung ke pin 4 (buttonPin), dan LED terhubung ke pin 5 (ledPin). Program secara terus-menerus memantau kondisi pushbutton, dan berdasarkan kondisi tersebut, menghidupkan atau mematikan LED yang terhubung. Selain itu, kondisi terkini dari pushbutton juga dicetak ke Serial Monitor. Pada fungsi setup(), program menginisialisasi komunikasi serial pada baud rate 115200 dan mengonfigurasi pinMode untuk pushbutton dan LED, dengan pushbutton diatur sebagai input dan LED sebagai output.
+Fungsi loop(), yang berjalan terus-menerus, membaca kondisi pushbutton menggunakan digitalRead(buttonPin). Jika pushbutton ditekan (buttonState == HIGH), program menyalakan LED (digitalWrite(ledPin, HIGH)); sebaliknya, jika tidak ditekan, program mematikan LED (digitalWrite(ledPin, LOW)). Kondisi terkini dari pushbutton juga dicetak ke Serial Monitor menggunakan Serial.println(buttonState).
 
 ##### GPIO Langkah 4 (Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms sekali)
    <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4d8a1cbe-0603-4018-bc58-deb9cb75b185">
