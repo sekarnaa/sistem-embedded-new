@@ -22,11 +22,5 @@ HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informa
 ##### Skematik
 <img width="254" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/cc8291f9-85e5-4973-a3e1-666c617f7b74">
 
-#### C.	HASIL DAN PEMBAHASAN (fungsi tiap code/flow chart)
-1. Basic Flow Transmisi Data Menggunakan Protokol HTTP
-  ##### Langkah 1-5
-  ##### Langkah 6-8
-  ##### Langkah 9-14
-2. Mengirim Data JSON ke Server dan Menyimpannya ke Database
 #### D.	KESIMPULAN
 
