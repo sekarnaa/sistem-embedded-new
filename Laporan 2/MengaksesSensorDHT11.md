@@ -6,6 +6,10 @@
 ##### Langkah 3 (Buatlah program untuk mengakses sensor DHT11)
   <img width="245" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c77a2030-4247-4aa2-8a7d-88fde86bcbfe">
 
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4539642d-044a-4194-9697-227ce1295818
+
+
   ##### *Fungsi deklarasi dan pengaturan awal*
   - Langkah awal mendeskripsikan pin untuk sensor DHT (`DHTPIN`), tipe sensor DHT (`DHTTYPE`), pin LED (`LED_PIN`), dan pin buzzer (`BUZZER_PIN`). Kemudian membuat objek DHT bernama `dht` menggunakan pin DHT dan tipe DHT yang sudah didekripsikan diawal tadi, sehingga dapat inisialisasi pin sebagai output dan memulai komunikasi serial.\
   ##### *Fungsi `loop()`*
