@@ -6,6 +6,10 @@
   ##### Langkah 4 (Program dengan mendekatkan kartu atau Tag RFID ke RFID Reader)
   <img width="357" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/0da382cf-055f-4767-a532-87b5a109dc24">
 
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6dba4494-e8a2-4dde-9631-e7cc673b4b7d
+
+
   ##### *Fungsi menginisialisasi Modul RFID dan menentukan UID*
   - Mendiskripsikan library SPI dan MFRC522, menentukan pin SS (Slave Select) dan RST (Reset) untuk modul RFID MFRC522, membuat objek MFRC522 bernama rfid dengan pin SS dan RST yang telah ditentukan, dan menentukan UID yang diharapkan dari kartu RFID yang akan diakses.
   ##### *Fungsi `setup()`*
@@ -15,6 +19,10 @@
    
    ##### Langkah 5 (Program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba)
    <img width="727" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/274036de-9b07-4be9-91d8-1e15f8128377">
+
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/21cf1671-6df7-4c22-af76-5199d439b8c0
+
 
    ##### *Fungsi `setup()`*
   - Serial Communication: Membuka koneksi serial dengan kecepatan 115200 untuk debug.
