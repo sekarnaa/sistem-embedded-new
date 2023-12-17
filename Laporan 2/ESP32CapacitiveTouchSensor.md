@@ -48,6 +48,10 @@
   ##### Langkah 9 (Tambahkan 2 LED sehingga pada rangkaian terdapat 3 LED. Buatlah program agar ketika sensor disentuh, LED menyala menjadi running LED. Nyala running LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri secara kontinyu)
   <img width="349" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c6e7689c-f876-4855-a0d0-6583350d7b80">
 
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/3a1f8345-9f8b-4510-adac-b5a4e7ed5b3b
+
+
+
   ##### *Fungsi deklarasi Pin* 
   - Kode Pin ini terdapat pendeklarasian pin untuk 3 lampu LED, yang diberi nama `ledPin`, `led2`, dan `led3` dan satu pin untuk sensor analog (sensorPin) dideklarasikan.
   ##### *Fungsi variabel*
