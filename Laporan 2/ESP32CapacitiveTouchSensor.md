@@ -11,6 +11,10 @@
   ##### Langkah 6 (Buatlah program agar LED menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh)
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/bb4528db-047b-453f-bd88-13dec5c421fd">
 
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4220-a0ad-86f13238fbd9
+
+
   ##### *Fungsi `setup()`*
   - *pinMode(ledPin, OUTPUT);*: Mendefinisikan pin *ledPin* sebagai output, yang berarti untuk mengontrol LED.
   - *pinMode(touchSensorPin, INPUT);*: Mendefinisikan pin *touchSensorPin* sebagai input, yang digunakan untuk membaca nilai   dari sensor sentuh.
