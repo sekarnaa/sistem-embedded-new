@@ -2,5 +2,40 @@
 
 ### HASIL DAN PEMBAHASAN
 #### Langkah 1-5
+FLOW PROGRAM
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/302ee753-5db8-40a1-b5c7-1777fd6e5919)
+
+HASIL
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/b93936a9-f7af-4db9-8c75-a7d6cf580167)
+
 #### Langkah 6-8
+FLOW PROGRAM
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/28fdef66-33fc-45a7-b7fc-d0f821928778)
+
+PENGATURAN POSTMAN
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ff972a9b-b069-47f4-bd90-c0e923d405a9)
+
+HASIL
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4483d502-b89a-4dfd-a102-c0567c0ecfd8)
+
 #### Langkah 9-14
+FLOW PROGRAM
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1562a851-6175-4b72-82b4-69b9d732073e)
+
+POSTMAN (Dengan nilai status 1)
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/b10e3aa7-6a3e-4287-a748-32d8efe39a0c)
+
+POSTMAN (Dengan nilai status 0)
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/2e396440-4e8c-4e0c-9ef7-36b959eb62fc)
+
+HASIL
+
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/40d2d20c-c9d0-47b9-a12d-edaebbe31e9c)
+![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/04f0af76-5372-49cb-a7c6-f9c3b2fc99de)
