@@ -16,6 +16,10 @@ Fungsi loop(), yang berjalan terus-menerus, membaca kondisi pushbutton menggunak
 
 ##### GPIO Langkah 4 (Tambahkan 1 LED dan 1 push button pada rangkaian, kemudian kembangkan program agar ketika push button ke-2 ditekan, LED akan melakukan blink setiap 500 ms sekali)
    <img width="210" alt="Screenshot 2023-12-10 202541" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4d8a1cbe-0603-4018-bc58-deb9cb75b185">
+
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/561b0481-6581-4ecc-a002-3c46394ef9f4
+
    
 Program di atas merupakan implementasi kontrol dua LED menggunakan dua tombol pada platform Arduino. Variabel konstan menentukan nomor pin untuk tombol dan LED yang digunakan, sementara variabel `buttonState` dan `buttonState2` menyimpan status dari masing-masing tombol. Pada fungsi setup, dilakukan inisialisasi komunikasi serial dan mode pin untuk tombol (input) dan LED (output). Fungsi loop membaca status tombol dan mengendalikan LED sesuai dengan kondisi tombol. Tombol pertama mengaktifkan atau menonaktifkan LED pertama, sedangkan tombol kedua membuat LED kedua berkedip selama satu detik setiap kali tombol ditekan, diulangi sebanyak lima kali. Program ini memberikan contoh sederhana penggunaan fungsi dasar pada Arduino, seperti `digitalRead()`, `digitalWrite()`, dan pengaturan mode pin melalui `pinMode()`, dengan loop yang terus-menerus memantau dan merespons kondisi tombol.
 
