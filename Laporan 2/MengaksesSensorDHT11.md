@@ -18,6 +18,11 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4539642d-044a-4
   ##### Langkah 4 (Buatlah program agar ketika suhu rungan mencapai 30 derajat celcius, maka ESP32 akan menyalakan LED Merah dan buzzer secara beep (blink). Apabila suhu dibawah 30 derajat, ESP32 akan mematikan buzzer dan menyalakan LED berbentuk running LED)
   <img width="493" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/bf40ffeb-c11b-4023-aaae-eee1b98db593">
 
+
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/ab090194-36e9-45ff-ba48-cb5ee46044bf
+
+
   ##### *Fungsi deklarasi library dan pin*
    - Mengatur kode dengan mendeklarasikan dua library, yaitu SPI dan MFRC522 yang digunakan untuk berkomunikasi dengan modul RFID MFRC522. Selain itu Pin SS_PIN dan RST_PIN diatur untuk komunikasi SPI antara ESP32 dan modul RFID.
   ##### *Fungsi deklarasi library dan pin `setup()`*
