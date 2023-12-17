@@ -2,6 +2,10 @@
 ### RANGKAIAN
 <img width="183" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/dcdc56e3-54c2-4f2f-99f5-4ad4ee63dbb4">
 
+
+https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/40779a3a-81a9-4c65-9371-a318e1680f27
+
+
 ### HASIL DAN PEMBAHASAN
   ##### Langkah 4 (Menghubungkan kabel jumper Male-to-Female pada Pin D4 ESP32. Kemudian Sentuh ujung kabel jumper dan amati yang terjadi)
   <img width="253" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6978b5bb-8099-432f-86d4-00cd91e41049">
