@@ -61,6 +61,8 @@ Program diatas ESP32 yang mengatur koneksi Wi-Fi dan hostname perangkat. Dalam s
 ##### Rangkaian
 <img width="290" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/dc3507fb-1c5b-45f1-8f4e-8c828021feb7">
 
+<img width="480" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/2f89b0e1-b003-4d54-b9a8-b6ddc8a2bdfb">
+
 Program tersebut membuat server web sederhana untuk menampilkan data suhu dan kelembaban dari sensor DHT11. Dengan menggunakan WiFi dan AsyncWebServer library, ESP32 terhubung ke jaringan Wi-Fi, membaca data dari sensor DHT11, dan menyajikannya dalam sebuah halaman web. Pada bagian setup menginisialisasi sensor DHT11, koneksi ke jaringan Wi-Fi, dan konfigurasi server web. Halaman web yang ditampilkan menggunakan HTML dan CSS dengan elemen-elemen presentasi yang estetis, dan JavaScript digunakan untuk mengambil dan memperbarui data suhu dan kelembaban secara periodik tanpa memuat ulang seluruh halaman.
 
 #### D.	KESIMPULAN
