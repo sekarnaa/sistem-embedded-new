@@ -22,7 +22,7 @@ Node-Red. </p>
 Adapun sub-job pada jobsheet ini yaitu:
   1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3109ffba56a6651e297c5c38887e264d5c86906a/Laporan%205/Basic%20Flow.md">Basic Flow</a>
   2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/e5b8d3fb2356e756d8579639d8aa9c6b4a310f3b/Laporan%205/Menggunakan%20Function%20Node.md">Menggunakan Function Node</a>
-  3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%205/Menggunakan%20Switch%20Node">Menggunakan Switch Node</a>
+  3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/94718b950b25e0b237db1dd778b486ad36917cba/Laporan%205/Menggunakan%20Switch%20Node.md">Menggunakan Switch Node</a>
   4. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/d8228ce402005825dde1f7af29b607970d83dfc6/Laporan%205/Menggunakan%20JSon%20Parsing.md">Menggunakan JSon Parsing</a>
   
 #### B. ALAT DAN BAHAN
