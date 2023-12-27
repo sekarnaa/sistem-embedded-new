@@ -14,10 +14,19 @@
 
 #### A. ABSTRAK
 <p align="justify">
-  Pada praktikum ini mengenai konsep dasar pemrograman menggunakan Node-Red beserta prinsip-prinsip dasar dalam lingkungan Node-Red. Node-RED adalah alat pemrograman yang menggunakan gambar dan mudah dipahami untuk menghubungkan perangkat keras, API, dan layanan online. Dengan editor berbasis browser, pengguna dapat membuat program dengan cara menyusun blok-blok pemrograman yang terhubung. Selain itu, praktikum ini membahas implementasi praktis seperti membuat aplikasi server sederhana menggunakan Node-Red. Dimana aplikasi server ini dapat digunakan dalam konteks pengembangan berbagai aplikasi berbasis IoT, pemantauan, dan otomatisasi. Kesimpulannya, praktikum ini memiliki tujuan agra dapat menguasai alat pemrograman Node-Red dan mengaplikasikannya dalam berbagai konteks pengembangan aplikasi. </p>
+  Pada praktikum ini mengenai konsep dasar pemrograman menggunakan Node-Red beserta prinsip-prinsip dasar dalam lingkungan Node-Red. Node-RED adalah alat pemrograman yang menggunakan gambar dan mudah dipahami untuk menghubungkan perangkat keras, API, dan layanan online. Dengan editor berbasis browser, pengguna dapat membuat program dengan cara menyusun blok-blok pemrograman yang terhubung. Selain itu, praktikum ini membahas implementasi praktis seperti membuat aplikasi server sederhana menggunakan Node-Red. Dimana aplikasi server ini dapat digunakan dalam konteks pengembangan berbagai aplikasi berbasis IoT, pemantauan, dan otomatisasi. Kesimpulannya, praktikum ini memiliki tujuan agra dapat menguasai alat pemrograman Node-Red dan mengaplikasikannya dalam berbagai konteks pengembangan aplikasi. 
 
+Jobsheet ini bertujuan untuk memahami dasar pemrograman pada Node-Red.
+dan membuat application server sederhana menggunakan
+Node-Red. </p>
+Adapun sub-job pada jobsheet ini yaitu:
+  1. <a href="<a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3109ffba56a6651e297c5c38887e264d5c86906a/Laporan%205/Basic%20Flow.md">Basic Flow</a>
+  2. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%205/Menggunakan%20Function%20Node">Menggunakan Function Node</a>
+  3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%205/Menggunakan%20Switch%20Node">Menggunakan Switch Node</a>
+  4. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%205/Menggunakan%20JSon%20Parsing">Menggunakan JSon Parsing</a>
+  
 #### B. ALAT DAN BAHAN
 1) Perangkat terpasang Node-Red
 2) PC/Laptop
 
-<a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3109ffba56a6651e297c5c38887e264d5c86906a/Laporan%205/Basic%20Flow.md">Basic Flow</a>
+
