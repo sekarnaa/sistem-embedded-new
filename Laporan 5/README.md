@@ -20,11 +20,3 @@
 1) Perangkat terpasang Node-Red
 2) PC/Laptop
 
-<p align="justify"> 
-  Jobsheet ini bertujuan untuk memahami dasar pemrograman pada Node-Red dan membuat application server sederhana menggunakan Node-Red. </p>
-Adapun sub-job pada jobsheet ini yaitu:
-1. Basic Flow
-2. Menggunakan Function Node
-3. Menggunakan Switch Node  
-4. Menggunakan JSon Parsing
-
