@@ -4,6 +4,7 @@
 
 ### HASIL DAN PEMBAHASAN
   ##### Langkah 4 (Program dengan mendekatkan kartu atau Tag RFID ke RFID Reader)
+Kode program dapat dilihat<a href="https://github.com/raolaay/SistemEmbedded/blob/master/Jobsheet%202.1/A.%20Mendapatkan_MAC_Address/Mendapatkan_MAC_Address.ino">di sini</a>
   <img width="357" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/0da382cf-055f-4767-a532-87b5a109dc24">
 
 
@@ -20,6 +21,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6dba4494-e8a2-4
 <p align="justify"> Memeriksa apakah ada kartu RFID yang baru dihadirkan (`PICC_IsNewCardPresent`). Jika kartu baru hadir, membaca NUID kartu (`PICC_ReadCardSerial`). Untuk mengatur tipe kartu RFID dan memeriksa apakah UID kartu sesuai dengan UID yang ditentukan (`keyTagUID`). Menampilkan pesan "Access is granted" jika UID sesuai; sebaliknya, menampilkan pesan "Access denied" berserta UID kartu jika tidak sesuai. Menghentikan aktivitas kartu RFID (`PICC_HaltA`) dan menghentikan enkripsi pada PCD (Proximity Coupling Device). Keluaran program memberikan akses atau penolakan berdasarkan UID kartu RFID yang dihadirkan di dekat pembaca. Pesan-pesan status dan informasi UID ditampilkan di Serial Monitor untuk pemantauan dan debugging. Dalam program ini, akses diberikan jika UID kartu RFID sesuai dengan nilai yang ditentukan (`keyTagUID`).
    
    ##### Langkah 5 (Program agar Tag RFID yang terbaca sebelumya dapat digunakan untuk hak akses. Apabila Tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. Gunakan Tag RFID lain untuk mencoba)
+Kode program dapat dilihat<a href="https://github.com/raolaay/SistemEmbedded/blob/master/Jobsheet%202.1/A.%20Mendapatkan_MAC_Address/Mendapatkan_MAC_Address.ino">di sini</a>
    <img width="727" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/274036de-9b07-4be9-91d8-1e15f8128377">
 
 
