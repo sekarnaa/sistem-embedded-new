@@ -12,6 +12,8 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/40779a3a-81a9-4
 <p align="justify"> Hasil keluaran dapat dilihat nilai pembacaan dari pin sentuh (touch) pada GPIO 4 tercetak ke dalam monitor serial setiap detiknya. Nilai tersebut mencerminkan seberapa kuat sinyal sentuhan yang dideteksi oleh sensor sentuh pada pin tersebut. Semakin tinggi nilai yang tercetak, semakin kuat sentuhan yang dideteksi. </p>
   
   ##### Langkah 6 (Buatlah program agar LED menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh)
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/bb4528db-047b-453f-bd88-13dec5c421fd">
 
 
@@ -30,6 +32,8 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *delay(100);*: Menambahkan penundaan 100 milidetik untuk menghindari pembacaan sensor yang terlalu cepat dan mengurangi    noise yang mungkin terjadi.
 
   ##### Langkah 7 (Buatlah program agar ketika sensor disentuh, LED menyala Blink)
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1d8b1229-8372-4f49-8a91-74af7fa6eef4">
 
   ##### *Fungsi `setup()`*
@@ -43,6 +47,8 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
   
   ##### Langkah 8 (Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh.)
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/295b26ce-6d97-42fd-b70c-de698a42b8af">
 
   ##### *Fungsi `setup()`*
@@ -53,6 +59,8 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka: Mengaktifkan LED berkedip dengan santai menggunakan loop `for`, nyala-mati setiap setengah detik, dan sambil santai nunggu sebentar sebelum berkedip lagi. 
   
   ##### Langkah 9 (Tambahkan 2 LED sehingga pada rangkaian terdapat 3 LED. Buatlah program agar ketika sensor disentuh, LED menyala menjadi running LED. Nyala running LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri secara kontinyu)
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  
   <img width="349" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c6e7689c-f876-4855-a0d0-6583350d7b80">
 
 https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/3a1f8345-9f8b-4510-adac-b5a4e7ed5b3b
