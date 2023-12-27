@@ -18,7 +18,7 @@
 
 Adapun sub-job pada jobsheet ini yaitu:
   1. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/A.%20Koneksi%20MQTT%20Broker">Koneksi MQTT Broker</a>
-  2. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/B.%20Menerima%20Data%20JSON%20Melalui%20Protokol%20MQTT">Menerima Data JSON Melalui Protokol MQTT</a>
+  2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/160a0e76c0e0cbe485d2276e768269e2d412304a/Laporan%202/Mengakses%20Sensor%20DHT11.md"> Mengakses Sensor DHT 11 Single Wire/Bus</a>
   3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/717bcc85dd8af8838aa9f3e6e7e1ff3a89645c05/Laporan%202/Mengakses%20Sensor%20RFID.md">Mengakses Sensor RFID</a>
   
 #### B. ALAT DAN BAHAN 
