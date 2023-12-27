@@ -17,7 +17,7 @@
 <p align="justify"> Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol komunikasi pada ESP32, seperti UART, I2C, OneWire, dan SPI. Dari pemahaman tersebut dapat menerapkan pengetahuan itu dalam mengakses berbagai jenis sensor. Selain itu, dapat memahami bagaimana cara menciptakan perangkat IoT yang praktis dengan memanfaatkan memanfaatkan transducer sensor dan actuator. </p>
 
 Adapun sub-job pada jobsheet ini yaitu:
-  1. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/A.%20Koneksi%20MQTT%20Broker">Koneksi MQTT Broker</a>
+  1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/b047bdcd3878267a68028a46070254d513e33b3c/Laporan%202/ESP32%20Capacitive%20Touch%20Sensor.md">ESP32 Capacitiev Touch Sensor</a>
   2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/160a0e76c0e0cbe485d2276e768269e2d412304a/Laporan%202/Mengakses%20Sensor%20DHT11.md"> Mengakses Sensor DHT 11 Single Wire/Bus</a>
   3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/717bcc85dd8af8838aa9f3e6e7e1ff3a89645c05/Laporan%202/Mengakses%20Sensor%20RFID.md">Mengakses Sensor RFID</a>
   
