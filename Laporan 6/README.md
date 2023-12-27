@@ -40,5 +40,4 @@ Adapun sub-job pada jobsheet ini yaitu:
 8) Resistor 1K Ohm
 
 #### D. KESIMPULAN
-
-
+<p align="justify">Job ini fokus pada konfigurasi MQTT broker, penggunaan publisher dan subscriber MQTT, serta manipulasi data JSON dalam Node-RED. Dengan menggunakan node seperti MQTT Subscribe, JSON Parser, Function, dan Debug, job ini menggambarkan pengiriman dan penerimaan data, serta pengolahan data kustom. Pengembangan flow dengan multiple publisher dan subscriber menunjukkan kemampuan sistem dalam menangani situasi yang lebih kompleks dengan topik-topik yang berbeda. Keseluruhan, job ini memberikan gambaran praktis tentang implementasi MQTT dalam lingkungan Node-RED untuk pengaturan komunikasi IoT.</p>
