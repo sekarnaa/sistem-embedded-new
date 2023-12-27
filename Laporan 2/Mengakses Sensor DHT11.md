@@ -4,7 +4,7 @@
 
 ### HASIL DAN PEMBAHASAN
 ##### Langkah 3 (Buatlah program untuk mengakses sensor DHT11)
-Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/43e124dbe669d46d4c28fa0b99c1160dfd99221c/Laporan%202/B4.ino">di sini</a>
+Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/55210fd5bbbe949ac6cd94de6869bb9441b3c0f9/Laporan%202/B3.ino">di sini</a>
   
   <img width="245" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c77a2030-4247-4aa2-8a7d-88fde86bcbfe">
 
