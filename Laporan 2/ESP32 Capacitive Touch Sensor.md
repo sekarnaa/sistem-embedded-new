@@ -47,7 +47,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *else { ... }*: Jika nilai sensor tidak melebihi ambang batas, matikan semua LED.
   
   ##### Langkah 8 (Buatlah program agar ketika LED menyala, maka pada Serial Monitor akan menampilkan angka yang akan bertambah setiap kali sensor disentuh.)
-  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/5b1dd7b740caea7a3e61e4fc34edebaa08932c3b/Laporan%202/A8.ino">di sini</a>
   
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/295b26ce-6d97-42fd-b70c-de698a42b8af">
 
