@@ -9,8 +9,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/40779a3a-81a9-4
 ### HASIL DAN PEMBAHASAN
   ##### Langkah 4 (Menghubungkan kabel jumper Male-to-Female pada Pin D4 ESP32. Kemudian Sentuh ujung kabel jumper dan amati yang terjadi)
   <img width="253" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/6978b5bb-8099-432f-86d4-00cd91e41049">
-  
-  - Hasil keluaran dapat dilihat nilai pembacaan dari pin sentuh (touch) pada GPIO 4 tercetak ke dalam monitor serial setiap detiknya. Nilai tersebut mencerminkan seberapa kuat sinyal sentuhan yang dideteksi oleh sensor sentuh pada pin tersebut. Semakin tinggi nilai yang tercetak, semakin kuat sentuhan yang dideteksi.
+<p align="justify"> Hasil keluaran dapat dilihat nilai pembacaan dari pin sentuh (touch) pada GPIO 4 tercetak ke dalam monitor serial setiap detiknya. Nilai tersebut mencerminkan seberapa kuat sinyal sentuhan yang dideteksi oleh sensor sentuh pada pin tersebut. Semakin tinggi nilai yang tercetak, semakin kuat sentuhan yang dideteksi. </p>
   
   ##### Langkah 6 (Buatlah program agar LED menyala ketika sensor disentuh, dan LED akan mati ketika sensor tidak disentuh)
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/bb4528db-047b-453f-bd88-13dec5c421fd">
@@ -61,10 +60,13 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/3a1f8345-9f8b-4
 
 
   ##### *Fungsi deklarasi Pin* 
-  - Kode Pin ini terdapat pendeklarasian pin untuk 3 lampu LED, yang diberi nama `ledPin`, `led2`, dan `led3` dan satu pin untuk sensor analog (sensorPin) dideklarasikan.
+<p align="justify"> Kode Pin ini terdapat pendeklarasian pin untuk 3 lampu LED, yang diberi nama `ledPin`, `led2`, dan `led3` dan satu pin untuk sensor analog (sensorPin) dideklarasikan.</p>
+
   ##### *Fungsi variabel*
-  - `sensorValue` menyimpan nilai analog yang dibaca dari sensor. `threshold`dapat disebut nilai ambang batas dimana jika `sensorValue` melebihi nilai ini, LED akan berkedip.
+<p align="justify"> `sensorValue` menyimpan nilai analog yang dibaca dari sensor. `threshold`dapat disebut nilai ambang batas dimana jika `sensorValue` melebihi nilai ini, LED akan berkedip. </p>
+
   ##### *Fungsi `setup()`*
-  - Mengatur pin LED sebagai output dan untuk memulai komunikasi serial dengan baud rate 9600.
+<p align="justify">Mengatur pin LED sebagai output dan untuk memulai komunikasi serial dengan baud rate 9600.</p>
+
   ##### *Fungsi `loop()`*
-  - Membaca nilai dari sensor analog. Jika nilai sensor melebihi ambang batas, maka akan ada perulangan untuk membuat ketiga LED berkedip secara bergantian dengan interval 500ms. Setelah itu, menunggu 1 detik sebelum mengulang. Dan jika nilai sensor tidak melebihi ambang batas, semua LED dimatikan.
+<p align="justify">Membaca nilai dari sensor analog. Jika nilai sensor melebihi ambang batas, maka akan ada perulangan untuk membuat ketiga LED berkedip secara bergantian dengan interval 500ms. Setelah itu, menunggu 1 detik sebelum mengulang. Dan jika nilai sensor tidak melebihi ambang batas, semua LED dimatikan.</p>
