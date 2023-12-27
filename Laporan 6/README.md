@@ -25,7 +25,7 @@ Arshad, 2016)</p>
 MQTT serta mengimplementasikan protokol MQTT pada sistem IoT untuk monitoring dan kendali.</p>
 
 Adapun sub-job pada jobsheet ini yaitu:
-  1. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/A.%20Koneksi%20MQTT%20Broker">Koneksi MQTT Broker</a>
+  1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/7c1d8a3eacc5beb45519fbbacbf0966a04d253a8/Laporan%206/Koneksi%20MQTT%20Broker.md">Koneksi MQTT Broker</a>
   2. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/B.%20Menerima%20Data%20JSON%20Melalui%20Protokol%20MQTT">Menerima Data JSON Melalui Protokol MQTT</a>
   3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/C.%20Mengirim%20Dummy%20Data%20untuk%20Simulasi%20IO%20Menggunakan%20Hardware">Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware</a>
 
