@@ -20,3 +20,4 @@
 1) Perangkat terpasang Node-Red
 2) PC/Laptop
 
+<a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3109ffba56a6651e297c5c38887e264d5c86906a/Laporan%205/Basic%20Flow.md">Basic Flow</a>
