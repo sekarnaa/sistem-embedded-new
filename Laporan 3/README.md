@@ -54,7 +54,7 @@ Metode yang mungkin digunakan adalah penggunaan protokol komunikasi seperti HTTP
 <p align="justify"> Program diatas ESP32 yang mengatur koneksi Wi-Fi dan hostname perangkat. Dalam setup, program membuka koneksi serial, menginisialisasi koneksi Wi-Fi sebagai mode STATION, dan mencoba terhubung ke jaringan Wi-Fi yang ditentukan. Selanjutnya, program mencetak nilai RSSI dan hostname baru ke dalam monitor serial setelah berhasil terhubung. Meskipun terdapat upaya untuk mengonfigurasi alamat IP secara manual menggunakan `WiFi.config()`, tampaknya konfigurasi tersebut tidak efektif dan perangkat tetap menggunakan DHCP.</p>
 
 ##### 5. Mengirim Data Sensor ke Database
-##### Rangkaian
+##### Rangkaian dan Flowchart
 <img width="290" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/dc3507fb-1c5b-45f1-8f4e-8c828021feb7">
 
 <img width="480" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/2f89b0e1-b003-4d54-b9a8-b6ddc8a2bdfb">
