@@ -27,7 +27,7 @@ MQTT serta mengimplementasikan protokol MQTT pada sistem IoT untuk monitoring da
 Adapun sub-job pada jobsheet ini yaitu:
   1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/7c1d8a3eacc5beb45519fbbacbf0966a04d253a8/Laporan%206/Koneksi%20MQTT%20Broker.md">Koneksi MQTT Broker</a>
   2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/9ba63d381b9bf14a88cc01d312ce97db605ebf09/Laporan%206/Menerima%20Data%20JSON%20Melalui%20Protokol%20MQTT.md">Menerima Data JSON Melalui Protokol MQTT</a>
-  3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/C.%20Mengirim%20Dummy%20Data%20untuk%20Simulasi%20IO%20Menggunakan%20Hardware">Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware</a>
+  3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/5772d3d6574c8da6ea416ccb9a1f371ba819a83f/Laporan%206/Mengirim%20Dummy%20Data%20untuk%20Simulasi.md">Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware</a>
 
 #### B. ALAT DAN BAHAN (Metode / skematik)
 1) ESP32
