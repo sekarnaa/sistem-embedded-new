@@ -59,7 +59,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *if (sensorValue > threshold) { ... }*: Jika nilai sensor melebihi nilai ambang batas (`threshold`), maka: Mengaktifkan LED berkedip dengan santai menggunakan loop `for`, nyala-mati setiap setengah detik, dan sambil santai nunggu sebentar sebelum berkedip lagi. 
   
   ##### Langkah 9 (Tambahkan 2 LED sehingga pada rangkaian terdapat 3 LED. Buatlah program agar ketika sensor disentuh, LED menyala menjadi running LED. Nyala running LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri secara kontinyu)
-  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/147d6bb2c1c749eea2a4e173cabfea1bf82a3b7b/Laporan%202/A9.ino">di sini</a>
   
   <img width="349" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/c6e7689c-f876-4855-a0d0-6583350d7b80">
 
