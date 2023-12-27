@@ -32,7 +32,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a50ecfce-240a-4
   - *delay(100);*: Menambahkan penundaan 100 milidetik untuk menghindari pembacaan sensor yang terlalu cepat dan mengurangi    noise yang mungkin terjadi.
 
   ##### Langkah 7 (Buatlah program agar ketika sensor disentuh, LED menyala Blink)
-  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ad3d8c9122b234fb060974c842e3ae868e244bcf/Laporan%202/A6.ino">di sini</a>
+  Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/616a98048f989cf775029762ba7330983a5cf9d5/Laporan%202/A7.ino">di sini</a>
   
   <img width="466" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/1d8b1229-8372-4f49-8a91-74af7fa6eef4">
 
