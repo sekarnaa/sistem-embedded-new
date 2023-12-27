@@ -14,8 +14,13 @@
 
 
 #### A. ABSTRAK
-Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol komunikasi pada ESP32, seperti UART, I2C, OneWire, dan SPI. Dari pemahaman tersebut dapat menerapkan pengetahuan itu dalam mengakses berbagai jenis sensor. Selain itu, dapat memahami bagaimana cara menciptakan perangkat IoT yang praktis dengan memanfaatkan memanfaatkan transducer sensor dan actuator. 
+<p align="justify"> Praktikum ini bertujuan untuk memberikan pemahaman mengenai cara kerja protokol komunikasi pada ESP32, seperti UART, I2C, OneWire, dan SPI. Dari pemahaman tersebut dapat menerapkan pengetahuan itu dalam mengakses berbagai jenis sensor. Selain itu, dapat memahami bagaimana cara menciptakan perangkat IoT yang praktis dengan memanfaatkan memanfaatkan transducer sensor dan actuator. </p>
 
+Adapun sub-job pada jobsheet ini yaitu:
+  1. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/A.%20Koneksi%20MQTT%20Broker">Koneksi MQTT Broker</a>
+  2. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/B.%20Menerima%20Data%20JSON%20Melalui%20Protokol%20MQTT">Menerima Data JSON Melalui Protokol MQTT</a>
+  3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Josbheet%206/C.%20Mengirim%20Dummy%20Data%20untuk%20Simulasi%20IO%20Menggunakan%20Hardware">Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware</a>
+  
 #### B. ALAT DAN BAHAN 
 1) ESP32
 2) Breadboard
