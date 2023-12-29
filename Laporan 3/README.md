@@ -38,8 +38,9 @@ Metode yang mungkin digunakan adalah penggunaan protokol komunikasi seperti HTTP
 
 #### C.	HASIL DAN PEMBAHASAN 
 ##### 1. ESP32 Wi-Fi Modes dan Wifi-Scan
-Kode program dapat dilihat <a href="">di sini.</a>
-   <img width="214" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/d8bc2769-8dea-477c-9c24-f75fdbe048ee">
+Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/d3a72da866214ee8797961b847e888060c8b6bb6/Laporan%203/A_ESP32%20Wi-Fi%20Modes%20dan%20Wifi-Scan.ino">di sini.</a>
+
+<img width="214" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/d8bc2769-8dea-477c-9c24-f75fdbe048ee">
    
 
 https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/2a08f022-9aa1-4335-804e-bc622cea5b19
