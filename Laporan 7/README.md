@@ -13,7 +13,7 @@
 <p style="font-family:courier;" align="center">2023</p></b> 
 
 #### A.	ABSTRAK
-HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informasi terdistribusi dan World Wide Web. HTTP memiliki dua versi utama: HTTP/1.0 dengan koneksi terpisah, dan HTTP/1.1 yang lebih efisien dengan penggunaan koneksi yang sama. Standar HTTP dikembangkan oleh W3C dan IETF, terutama RFC 2616. HTTP memfasilitasi permintaan/respons antara klien (seperti web browser) dan server. Klien memulai permintaan dengan terhubung ke server melalui port tertentu (umumnya port 80). Dalam implementasi HTTP menjadi kunci untuk memahami alur kerja, kegunaan, dan manfaatnya. Mahasiswa akan mempelajari aplikasi praktis protokol HTTP dalam sistem IoT untuk keperluan monitoring dan kendali melalui praktikum.
+<p align="justify"> HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informasi terdistribusi dan World Wide Web. HTTP memiliki dua versi utama: HTTP/1.0 dengan koneksi terpisah, dan HTTP/1.1 yang lebih efisien dengan penggunaan koneksi yang sama. Standar HTTP dikembangkan oleh W3C dan IETF, terutama RFC 2616. HTTP memfasilitasi permintaan/respons antara klien (seperti web browser) dan server. Klien memulai permintaan dengan terhubung ke server melalui port tertentu (umumnya port 80). Dalam implementasi HTTP menjadi kunci untuk memahami alur kerja, kegunaan, dan manfaatnya. Mahasiswa akan mempelajari aplikasi praktis protokol HTTP dalam sistem IoT untuk keperluan monitoring dan kendali melalui praktikum.</p>
 
 #### B.	ALAT DAN BAHAN
 1. PC/Laptop

@@ -10,7 +10,7 @@ HASIL
 
 ![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/b93936a9-f7af-4db9-8c75-a7d6cf580167)
 
-Dalam alur program data dikirim melalui protokol HTTP. Node HTTP In digunakan untuk menerima permintaan, sedangkan Debug Node menampilkan output. Input Dummy Node digunakan sebagai sumber data. Setelah deployment, Postman dikonfigurasi dengan mengirimkan data 'HelloWorld' dalam format JSON. Klik 'Send' pada Postman, dan jika flow program di-deploy berhasil, akan menghasilkan keluaran 'HelloWorld'. Dengan demikian, program ini memungkinkan transmisi data menggunakan HTTP.
+<p align="justify">Dalam alur program data dikirim melalui protokol HTTP. Node HTTP In digunakan untuk menerima permintaan, sedangkan Debug Node menampilkan output. Input Dummy Node digunakan sebagai sumber data. Setelah deployment, Postman dikonfigurasi dengan mengirimkan data 'HelloWorld' dalam format JSON. Klik 'Send' pada Postman, dan jika flow program di-deploy berhasil, akan menghasilkan keluaran 'HelloWorld'. Dengan demikian, program ini memungkinkan transmisi data menggunakan HTTP. </p>
 
 #### Langkah 6-8 (Parsing data JSON)
 FLOW PROGRAM
@@ -25,7 +25,7 @@ HASIL
 
 ![image](https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/4483d502-b89a-4dfd-a102-c0567c0ecfd8)
 
-Pada program, ketika di-deploy dan data JSON dikirim melalui Postman, hasil keluaran yang diantisipasi adalah temp 23, humi 32, light 3, dan status 1. Ini menunjukkan bahwa parsing data JSON telah berhasil dilakukan sesuai dengan konfigurasi yang telah diatur sebelumnya. Pada prosesnya memastikan bahwa program mampu melakukan parsing data JSON dengan benar dan menghasilkan keluaran yang sesuai dengan nilai yang diatur pada Postman. Konfigurasi yang tepat pada Function/Validation node menjadi kunci untuk memastikan pemrosesan data yang akurat dan sesuai dengan kebutuhan. Dengan demikian, alur program ini efektif dalam mengelola dan memproses data JSON melalui protokol HTTP.
+<p align="justify">Pada program, ketika di-deploy dan data JSON dikirim melalui Postman, hasil keluaran yang diantisipasi adalah temp 23, humi 32, light 3, dan status 1. Ini menunjukkan bahwa parsing data JSON telah berhasil dilakukan sesuai dengan konfigurasi yang telah diatur sebelumnya. Pada prosesnya memastikan bahwa program mampu melakukan parsing data JSON dengan benar dan menghasilkan keluaran yang sesuai dengan nilai yang diatur pada Postman. Konfigurasi yang tepat pada Function/Validation node menjadi kunci untuk memastikan pemrosesan data yang akurat dan sesuai dengan kebutuhan. Dengan demikian, alur program ini efektif dalam mengelola dan memproses data JSON melalui protokol HTTP.</p>
 
 #### Langkah 9-14
 FLOW PROGRAM
