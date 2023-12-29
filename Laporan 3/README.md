@@ -82,7 +82,7 @@ https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/a5154a5b-e3b8-4
 <p align="justify"> Program diatas ESP32 yang mengatur koneksi Wi-Fi dan hostname perangkat. Dalam setup, program membuka koneksi serial, menginisialisasi koneksi Wi-Fi sebagai mode STATION, dan mencoba terhubung ke jaringan Wi-Fi yang ditentukan. Selanjutnya, program mencetak nilai RSSI dan hostname baru ke dalam monitor serial setelah berhasil terhubung. Meskipun terdapat upaya untuk mengonfigurasi alamat IP secara manual menggunakan `WiFi.config()`, tampaknya konfigurasi tersebut tidak efektif dan perangkat tetap menggunakan DHCP.</p>
 
 ##### 5. Mengirim Data Sensor ke Database
-Kode program dapat dilihat <a href="">di sini.</a>
+Kode program dapat dilihat <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/b575f0310e5d5a0feafff83653de1f26dbc3fc06/Laporan%203/E_Mengetahui_IP_Address.ino">di sini.</a>
 ##### Rangkaian dan Flowchart
 <img width="290" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/dc3507fb-1c5b-45f1-8f4e-8c828021feb7">
 
