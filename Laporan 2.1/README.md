@@ -23,7 +23,7 @@ Pada jobsheet ini dibagi menjadi beberapa sub-job yaitu:
 2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/769a36d6a3b58a64e0e5b8f6a4b3661c7cd28729/Laporan%202.1/ESPNOWOneWay.md">ESP-NOW One-Way Point-to-Point Communication</a>
 3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/6977a39301c6c13dca97a58ee0585edec9be6391/Laporan%202.1/One-Way%2COne-to-ManyCommunication.md">One-Way, One-to-Many Communication</a>
 4. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3f02fdf89238707109d6bff008031c2dfdd9b0ad/Laporan%202.1/One-Way%2CMany-to-OneCommunication.md">One-Way, Many-to-One Communication</a>
-5. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%202.1/E.%20Two-Way%20Communication">Two-Way Communication</a>
+5. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/ac2d85267752e36a5539dbf72c3f942f48feaf6e/Laporan%202.1/Two-Way%20Communication.md">Two-Way Communication</a>
 
 #### B.	ALAT DAN BAHAN (Metode / skematik)
 1) ESP32
