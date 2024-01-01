@@ -21,7 +21,7 @@ https://github.com/raolaay/SistemEmbedded/assets/145360333/9c380021-0fee-428d-99
 
 
 
-##S 2. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
+## 2. Mengirim Pesan yang Berbeda Ke Beberapa Board ESP32
 
 ### a. Rangkaian
 ![image](https://github.com/raolaay/SistemEmbedded/assets/145360333/dd0c1f6d-1e55-430e-aebd-a127006455b5)
