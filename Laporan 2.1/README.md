@@ -18,6 +18,7 @@
 Communication dan Many-to-One Communication. Sementara Two-Way Communication terbagi menjadi Point-to-Point dan Mesh Communication.</p>
 <p align="justify">Adapun tujuan dari jobsheet ini adalah untuk memahami konsep topologi jaringan sensor nirkabel berbasis ESP-NOW, melakukan konfigurasi berbagai topologi ESP-NOW, dan menganalisis dan menentukan topologi ESP-NOW,sesuai dengan
 studi kasus proyek. </p>
+
 Pada jobsheet ini dibagi menjadi beberapa sub-job yaitu:
 1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/769a36d6a3b58a64e0e5b8f6a4b3661c7cd28729/Laporan%202.1/MemperolehMACAddressESP32Receiver.md">Memperoleh MAC Address ESP32 Receiver</a>
 2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/769a36d6a3b58a64e0e5b8f6a4b3661c7cd28729/Laporan%202.1/ESPNOWOneWay.md">ESP-NOW One-Way Point-to-Point Communication</a>
