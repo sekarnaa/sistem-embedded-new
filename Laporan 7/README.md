@@ -15,6 +15,11 @@
 #### A.	ABSTRAK
 <p align="justify"> HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informasi terdistribusi dan World Wide Web. HTTP memiliki dua versi utama: HTTP/1.0 dengan koneksi terpisah, dan HTTP/1.1 yang lebih efisien dengan penggunaan koneksi yang sama. Standar HTTP dikembangkan oleh W3C dan IETF, terutama RFC 2616. HTTP memfasilitasi permintaan/respons antara klien (seperti web browser) dan server. Klien memulai permintaan dengan terhubung ke server melalui port tertentu (umumnya port 80). Dalam implementasi HTTP menjadi kunci untuk memahami alur kerja, kegunaan, dan manfaatnya. Mahasiswa akan mempelajari aplikasi praktis protokol HTTP dalam sistem IoT untuk keperluan monitoring dan kendali melalui praktikum.</p>
 
+Jobsheet ini bertujuan untuk memahami alur kerja, kegunaan, dan manfaat protokol serta memahami dan mengimplementasikan protokol HTTP pada sistem IoT untuk monitoring dan kendali. Sub-job pada jobsheet ini, antara lain:
+1. Instalasi SQL
+Basic Flow Transmisi HTTP
+Mengirim Data JSON ke Server dan Menyimpannya ke Database
+
 #### B.	ALAT DAN BAHAN
 1. PC/Laptop
 2. Software Node Red
