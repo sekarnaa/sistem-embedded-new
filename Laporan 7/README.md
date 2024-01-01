@@ -16,9 +16,9 @@
 <p align="justify"> HTTP (Hypertext Transfer Protocol) adalah protokol jaringan untuk sistem informasi terdistribusi dan World Wide Web. HTTP memiliki dua versi utama: HTTP/1.0 dengan koneksi terpisah, dan HTTP/1.1 yang lebih efisien dengan penggunaan koneksi yang sama. Standar HTTP dikembangkan oleh W3C dan IETF, terutama RFC 2616. HTTP memfasilitasi permintaan/respons antara klien (seperti web browser) dan server. Klien memulai permintaan dengan terhubung ke server melalui port tertentu (umumnya port 80). Dalam implementasi HTTP menjadi kunci untuk memahami alur kerja, kegunaan, dan manfaatnya. Mahasiswa akan mempelajari aplikasi praktis protokol HTTP dalam sistem IoT untuk keperluan monitoring dan kendali melalui praktikum.</p>
 
 Jobsheet ini bertujuan untuk memahami alur kerja, kegunaan, dan manfaat protokol serta memahami dan mengimplementasikan protokol HTTP pada sistem IoT untuk monitoring dan kendali. Sub-job pada jobsheet ini, antara lain:
-1. Instalasi SQL
-Basic Flow Transmisi HTTP
-Mengirim Data JSON ke Server dan Menyimpannya ke Database
+  1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/b047bdcd3878267a68028a46070254d513e33b3c/Laporan%202/ESP32%20Capacitive%20Touch%20Sensor.md">Instalasi SQL</a>
+  2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/160a0e76c0e0cbe485d2276e768269e2d412304a/Laporan%202/Mengakses%20Sensor%20DHT11.md"> Basic Flow Transmisi HTTP</a>
+  3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/717bcc85dd8af8838aa9f3e6e7e1ff3a89645c05/Laporan%202/Mengakses%20Sensor%20RFID.md">Mengirim Data JSON ke Server dan Menyimpannya ke Database</a>
 
 #### B.	ALAT DAN BAHAN
 1. PC/Laptop
@@ -26,6 +26,3 @@ Mengirim Data JSON ke Server dan Menyimpannya ke Database
 3. Software Postman
 ##### Skematik
 <img width="254" alt="image" src="https://github.com/sekarnaa/sistem-embedded-new/assets/150989006/cc8291f9-85e5-4973-a3e1-666c617f7b74">
-
-#### D.	KESIMPULAN
-
