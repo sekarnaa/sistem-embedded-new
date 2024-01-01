@@ -21,7 +21,7 @@ studi kasus proyek. </p>
 Pada jobsheet ini dibagi menjadi beberapa sub-job yaitu:
 1. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/769a36d6a3b58a64e0e5b8f6a4b3661c7cd28729/Laporan%202.1/MemperolehMACAddressESP32Receiver.md">Memperoleh MAC Address ESP32 Receiver</a>
 2. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/769a36d6a3b58a64e0e5b8f6a4b3661c7cd28729/Laporan%202.1/ESPNOWOneWay.md">ESP-NOW One-Way Point-to-Point Communication</a>
-3. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%202.1/C.%20One-Way%2C%20One-to-Many%20Communication">One-Way, One-to-Many Communication</a>
+3. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/6977a39301c6c13dca97a58ee0585edec9be6391/Laporan%202.1/One-Way%2COne-to-ManyCommunication.md">One-Way, One-to-Many Communication</a>
 4. <a href="https://github.com/sekarnaa/sistem-embedded-new/blob/3f02fdf89238707109d6bff008031c2dfdd9b0ad/Laporan%202.1/One-Way%2CMany-to-OneCommunication.md">One-Way, Many-to-One Communication</a>
 5. <a href="https://github.com/raolaay/SistemEmbedded/tree/master/Jobsheet%202.1/E.%20Two-Way%20Communication">Two-Way Communication</a>
 
