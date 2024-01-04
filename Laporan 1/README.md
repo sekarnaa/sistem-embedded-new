@@ -24,7 +24,4 @@ Pada praktikum ini membahas dasar-dasar pemrograman ESP32 untuk pemrosesan data 
 6) LED (5) dan Push Button (3)
 7) Multimeter
 8) Resistor 330,1K, 10K Ohm (@ 3)
-   
-#### D. KESIMPULAN
-
 
